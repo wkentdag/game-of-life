@@ -271,7 +271,7 @@ public class MainWindow extends JFrame
                 board.setRuleSet(new Conway());
             } else {
                 // Uncomment for HighLife
-                // board.setRuleSet(new HighLife());
+                board.setRuleSet(new Highlife());
             }
         }
     }
